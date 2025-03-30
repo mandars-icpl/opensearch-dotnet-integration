@@ -1,0 +1,14 @@
+# Ignore build outputs
+bin/
+obj/
+
+# JetBrains Rider project settings
+.idea/
+*.iws
+
+# Visual Studio related
+.vs/
+*.user
+*.suo
+*.userprefs
+*.csproj.user

@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/Opensearch-Dotnet-Todo.props" />
-</Project>
