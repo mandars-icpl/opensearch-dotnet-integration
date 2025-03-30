@@ -1,0 +1,23 @@
+@Opensearch_Dotnet_Todo_HostAddress = http://localhost:5171
+
+### Get all indices from OpenSearch
+GET {{Opensearch_Dotnet_Todo_HostAddress}}/opensearch/indices
+Accept: application/json
+
+### Get all students
+GET {{Opensearch_Dotnet_Todo_HostAddress}}/students/
+Accept: application/json
+
+### Create a test student document
+# This request will need to be sent directly to your OpenSearch instance
+POST https://localhost:9200/students/_doc
+Content-Type: application/json
+Authorization: Basic admin C#abcd@1234
+
+{
+  "Id": 1002,
+  "FirstName": "Sunny",
+  "LastName": "Modi",
+  "GradYear": 1999,
+  "Gpa": 4.9
+}
